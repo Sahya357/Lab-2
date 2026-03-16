@@ -1,4 +1,4 @@
-﻿#include <stdio.h> 
+#include <stdio.h> 
 #include <locale.h> 
 #include <math.h>
 int main() {
@@ -9,9 +9,9 @@ int main() {
 	scanf_s("%d", &a);
 	printf("Ведіть 2 число:");
 	scanf_s("%d", &b);
-	if (a != 0 && b != 0) {
+	
 		printf("Ділення другого числа на перше, залишок: %d\n", b % a);
 		printf("Ділення першого числа на друге: %d\n", a / b);
 		printf("Множення двох чисел: %d\n", a * b);
-	}
+	
 }
